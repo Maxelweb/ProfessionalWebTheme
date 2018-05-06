@@ -1,0 +1,18 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			Professional Web
+	Version: 			0.2.0 
+	Based on style:		prosilver (the default phpBB 3.1.x style)
+	Author:				Maxel
+    --------------------------------------------------------------
+*/
+
+@import url("common.css");
+@import url("links.css");
+@import url("content.css");
+@import url("buttons.css");
+@import url("cp.css");
+@import url("forms.css");
+@import url("colours.css");
+@import url("imageset.css");
+@import url("professionalweb_custom.css")

@@ -1,0 +1,105 @@
+/*  
+
+	ITA: Settaggi di Modifica dello stile di ProfessionalWeb, realizzato da Maxel
+
+    --------------------------------------------------------------
+	Per modificare i colori e le sfumature di un determinato elemento del forum,
+	modificare ciascuna parte leggendo attentamente le descrizioni riportate, 
+	elemento per elemento.
+    --------------------------------------------------------------
+	
+	(ENG: Read these lines to edit this configuration)
+
+*/
+
+
+/*	-----------------------
+	SFONDO DEL FORUM 
+	(FORUM BACKGROUND COLOR)
+	-----------------------
+*/
+
+html, body {
+	background-color: #2A323D !important;
+}
+
+
+
+/*	-----------------------
+	NAVBAR E CONTENITORI
+	(NAVBAR & CONTAINERS)
+	-----------------------
+*/
+
+.navbar{
+
+
+	/* Predefinito --> GRADIENT APPOSITO (Vedi il sito di ColorZilla!)
+	   (default --> use a gradient generator as ColorZilla)
+
+	   Se si vuole usare un'immagine specifica, usare:
+	   (To use an image as background use the following:) 
+
+	   background-image: url('URL.COM o path del tema');
+
+	*/
+
+
+}
+.forabg{
+
+	/* Per togliere il colore predefinito ESTERNO al contenitore dei forum e usarne uno proprio, inserire:
+	   (To remove to default external color from the forum container insert the following:)
+
+	   		background-image: none !important;
+	   		background-color: #COLORE !important;  
+	 
+	   oppure, usare un gradient (sfumatura) al posto del background-color;
+	   (otherwise, use a color gradient without background-color)
+
+	 */
+
+
+
+}
+
+.forumbg{
+
+	/*	Stesso procedimento sopra riportato. Questo stile serve per modificare il contenitore ESTERNO degli argomenti.
+		Vedi sopra!		
+		(Same procedure as before. This part is used to edit the external threads container)
+	*/
+
+
+
+}
+
+
+ul.forums{
+
+	/* Per modificare il colore di sfondo INTERNO al contenitore dei forum e usarne uno proprio, inserire: 
+	   (To edit the background color inside the forum container insert the following after the comments line: )
+
+	   		background-image: none !important;
+	   		background-color: #COLORE !important;
+
+	   oppure, usare un gradient (sfumatura) al posto del background-color; 
+	   (otherwise, use a color gradient without background-color)
+
+	*/
+
+}
+
+
+
+/*	-----------------------
+	TESTATA - Fascia centrale che attraversa il logo. Per eliminarla, usare lo stesso colore dello sfondo.
+	(HEADER - Central big strip behind the banner in the header section. Use the same background-color specified in the html,body to hide the strip) 
+	-----------------------
+*/
+
+#top_header {
+    background-color: #455163  !important;
+}
+
+

@@ -1,0 +1,112 @@
+/*  
+
+	ITA: Settaggi di Modifica dello stile di ProfessionalWeb, realizzato da Maxel
+
+    --------------------------------------------------------------
+	Per modificare i colori e le sfumature di un determinato elemento del forum,
+	modificare ciascuna parte leggendo attentamente le descrizioni riportate, 
+	elemento per elemento.
+    --------------------------------------------------------------
+	
+	(ENG: Read these lines to edit this configuration)
+
+*/
+
+
+/*	-----------------------
+	SFONDO DEL FORUM 
+	(FORUM BACKGROUND COLOR)
+	-----------------------
+*/
+
+html, body {
+	background-color: #2A323D !important;
+}
+
+
+/*	-----------------------
+	NAVBAR E CONTENITORI
+	(NAVBAR & CONTAINERS)
+	-----------------------
+*/
+
+.navbar{
+
+	/* Predefinito --> GRADIENT APPOSITO (Vedi il sito di ColorZilla!)
+	   (default --> use a gradient generator as ColorZilla)
+
+	   Se si vuole usare un'immagine specifica, usare:
+	   (To use an image as background use the following:) 
+
+	   background-image: url('URL.COM o path del tema');
+
+	*/
+
+	background: #2a5178; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2a5178 1%, #223863 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#2a5178), color-stop(100%,#223863)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2a5178 1%,#223863 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2a5178 1%,#223863 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2a5178 1%,#223863 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2a5178 1%,#223863 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a5178', endColorstr='#223863',GradientType=0 ); /* IE6-9 */
+
+}
+
+.forabg{
+
+	/* Per togliere il colore predefinito ESTERNO al contenitore dei forum e usarne uno proprio, inserire:
+	   (To remove to default external color from the forum container insert the following:)
+
+	   		background-image: none !important;
+	   		background-color: #COLORE !important;  
+	 
+	   oppure, usare un gradient (sfumatura) al posto del background-color;
+	   (otherwise, use a color gradient without background-color)
+
+	 */
+
+
+
+}
+
+.forumbg{
+
+	/*	Stesso procedimento sopra riportato. Questo stile serve per modificare il contenitore ESTERNO degli argomenti.
+		Vedi sopra!		
+		(Same procedure as before. This part is used to edit the external threads container)
+	*/
+
+
+
+}
+
+
+ul.forums{
+
+	/* Per modificare il colore di sfondo INTERNO al contenitore dei forum e usarne uno proprio, inserire: 
+	   (To edit the background color inside the forum container insert the following after the comments line: )
+
+	   		background-image: none !important;
+	   		background-color: #COLORE !important;
+
+	   oppure, usare un gradient (sfumatura) al posto del background-color; 
+	   (otherwise, use a color gradient without background-color)
+
+	*/
+
+}
+
+
+
+/*	-----------------------
+	TESTATA - Fascia centrale che attraversa il logo. Per eliminarla, usare lo stesso colore dello sfondo.
+	(HEADER - Central big strip behind the banner in the header section. Use the same background-color specified in the html,body to hide the strip) 
+	-----------------------
+*/
+
+#top_header {
+    background-color: #455163  !important;
+}
+
+
