@@ -1,6 +1,6 @@
 # ProfessionalWeb - PHPBB Theme
 
-
+![](https://i.imgur.com/CiozPxr.png)
 
 # Italiano
 
