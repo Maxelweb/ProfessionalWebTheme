@@ -5,7 +5,7 @@
 # Italiano
 
 Professional web è un tema molto basico derivante da prosilver e utilizzato per i forum della piattaforma PHPBB (3.1 e 3.2).
-[Clicca qui per scaricare il tema](releases)
+[Clicca qui per scaricare il tema](../releases)
 
 ### Come si installa?
 
@@ -24,7 +24,7 @@ Devi sapere un minimo di CSS per poter cambiare le impostazioni di alcuni colori
 # English
 
 ProfessionalWeb is a simple theme based on prosilver for PHPBB forum platform (3.1 & 3.2).
-[Click here to download the theme](releases)
+[Click here to download the theme](../releases)
 
 
 ### How to install
